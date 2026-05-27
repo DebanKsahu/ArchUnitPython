@@ -1,3 +1,36 @@
+# 1.0.0 (2026-05-27)
+
+
+* feat!: rename package from archunitpy to archunitpython ([95c0b3a](https://github.com/DebanKsahu/ArchUnitPython/commit/95c0b3a0047534302f04e42c0bfca3389c9926bf))
+
+
+### Bug Fixes
+
+* **deps:** bump actions/upload-pages-artifact ([a4452fc](https://github.com/DebanKsahu/ArchUnitPython/commit/a4452fce2ce9428882cf686227de9f09cb6a21b1))
+* **deps:** bump the actions-updates group with 7 updates ([54521e4](https://github.com/DebanKsahu/ArchUnitPython/commit/54521e492256dcd1f612f119ae03ec87a08dd0c1))
+* lint issues ([d69666b](https://github.com/DebanKsahu/ArchUnitPython/commit/d69666b9cb179225d5520f696035e5ca28f2b7ff))
+* linting errors ([bae7613](https://github.com/DebanKsahu/ArchUnitPython/commit/bae761376817a858a622f2320da3a4596823c891))
+* pypi packaging config ([5bc8b8e](https://github.com/DebanKsahu/ArchUnitPython/commit/5bc8b8eec35b5dcdd8cb391216181963970e4e6e))
+* README ([9d41438](https://github.com/DebanKsahu/ArchUnitPython/commit/9d414386245de7288ff441618f0dd56215d032ca))
+* resolve all ruff lint errors ([3a349f9](https://github.com/DebanKsahu/ArchUnitPython/commit/3a349f95c686df2bfb0582bcafeeef5e109ba626))
+* update readme ([70ff6ad](https://github.com/DebanKsahu/ArchUnitPython/commit/70ff6ad7634a70d8539a93b3e25e31d6b75b73e3))
+* update readme ([066189f](https://github.com/DebanKsahu/ArchUnitPython/commit/066189fa342a4a2b3a48b0b779013d47885a3dca))
+* update README ([e3e8949](https://github.com/DebanKsahu/ArchUnitPython/commit/e3e89493bcdd3458221666cb5f7ee46dc7996a8c))
+* version bumps ([19e5eb7](https://github.com/DebanKsahu/ArchUnitPython/commit/19e5eb72cbb24f11e528d66aa6d78e491804688c))
+
+
+### Features
+
+* add external dependencies and TYPE_CHECKING ([02b8d01](https://github.com/DebanKsahu/ArchUnitPython/commit/02b8d01b37752e5ddd815ab5c10b36f26814f438))
+
+
+### BREAKING CHANGES
+
+* Package import changed from `import archunitpy` to
+`import archunitpython`.
+
+Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>
+
 ## [1.1.1](https://github.com/LukasNiessen/ArchUnitPython/compare/v1.1.0...v1.1.1) (2026-05-24)
 
 
