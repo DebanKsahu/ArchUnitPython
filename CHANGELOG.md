@@ -1,3 +1,56 @@
+# 1.0.0 (2026-08-26)
+
+
+* feat!: rename package from archunitpy to archunitpython ([95c0b3a](https://github.com/DebanKsahu/ArchUnitPython/commit/95c0b3a0047534302f04e42c0bfca3389c9926bf))
+
+
+### Bug Fixes
+
+* clarify metadata and exclude messages ([999bb68](https://github.com/DebanKsahu/ArchUnitPython/commit/999bb689594ff613b5f4445191509bcdaa9a514f))
+* **deps:** bump actions/upload-pages-artifact ([a4452fc](https://github.com/DebanKsahu/ArchUnitPython/commit/a4452fce2ce9428882cf686227de9f09cb6a21b1))
+* **deps:** bump the actions-updates group with 7 updates ([54521e4](https://github.com/DebanKsahu/ArchUnitPython/commit/54521e492256dcd1f612f119ae03ec87a08dd0c1))
+* **extract_graph:** validate AST line number before range lookup ([84c9ef4](https://github.com/DebanKsahu/ArchUnitPython/commit/84c9ef4a97333ed1fa302778725ab6d5ba891574))
+* fixed the duplicate key issue ([283e8e3](https://github.com/DebanKsahu/ArchUnitPython/commit/283e8e3aa959d235f331912e33a72bdbd62f3d31))
+* harden archignore loading ([ae88c93](https://github.com/DebanKsahu/ArchUnitPython/commit/ae88c932ae2838cff0eabab687ac948f4920c3eb))
+* lint issues ([d69666b](https://github.com/DebanKsahu/ArchUnitPython/commit/d69666b9cb179225d5520f696035e5ca28f2b7ff))
+* linting errors ([bae7613](https://github.com/DebanKsahu/ArchUnitPython/commit/bae761376817a858a622f2320da3a4596823c891))
+* pypi packaging config ([5bc8b8e](https://github.com/DebanKsahu/ArchUnitPython/commit/5bc8b8eec35b5dcdd8cb391216181963970e4e6e))
+* README ([9d41438](https://github.com/DebanKsahu/ArchUnitPython/commit/9d414386245de7288ff441618f0dd56215d032ca))
+* resolve all ruff lint errors ([3a349f9](https://github.com/DebanKsahu/ArchUnitPython/commit/3a349f95c686df2bfb0582bcafeeef5e109ba626))
+* update readme ([70ff6ad](https://github.com/DebanKsahu/ArchUnitPython/commit/70ff6ad7634a70d8539a93b3e25e31d6b75b73e3))
+* update readme ([066189f](https://github.com/DebanKsahu/ArchUnitPython/commit/066189fa342a4a2b3a48b0b779013d47885a3dca))
+* update README ([e3e8949](https://github.com/DebanKsahu/ArchUnitPython/commit/e3e89493bcdd3458221666cb5f7ee46dc7996a8c))
+* version bumps ([19e5eb7](https://github.com/DebanKsahu/ArchUnitPython/commit/19e5eb72cbb24f11e528d66aa6d78e491804688c))
+* wrap long line in extract_graph to pass ruff E501 ([f291181](https://github.com/DebanKsahu/ArchUnitPython/commit/f291181336bacdd7a913187d2d26f1125f1b2a11))
+
+
+### Features
+
+* add because rule rationales ([491c666](https://github.com/DebanKsahu/ArchUnitPython/commit/491c666f1f8a6ef2f5ccd782a4e4c79ed39321f6))
+* add external dependencies and TYPE_CHECKING ([02b8d01](https://github.com/DebanKsahu/ArchUnitPython/commit/02b8d01b37752e5ddd815ab5c10b36f26814f438))
+* add graph reporting and sponsorship links ([6d5eabc](https://github.com/DebanKsahu/ArchUnitPython/commit/6d5eabc1c1395c5bb4cf18e222ac472d33c02eb4))
+* load common rules from config ([c7c968a](https://github.com/DebanKsahu/ArchUnitPython/commit/c7c968af20e929f7e7a2372275eaa7e26cb38e5f))
+* support archignore exclusions ([c51c401](https://github.com/DebanKsahu/ArchUnitPython/commit/c51c40148425b08ce0257d75dd95c996d0505b00))
+
+
+### Performance Improvements
+
+* **extract_graph:** optimize file path normalization ([14b4a95](https://github.com/DebanKsahu/ArchUnitPython/commit/14b4a955576d4ee2464c8c2cceb71f28b9135198))
+* **extract_graph:** replace linear search in `_in_type_checking()` with binary search ([1285b5e](https://github.com/DebanKsahu/ArchUnitPython/commit/1285b5e5ac513d7897d42b5e6c1fcb0bd83c1835))
+
+
+### Reverts
+
+* Reverted the binary search implementation in `_in_type_checking()` function. ([d06a455](https://github.com/DebanKsahu/ArchUnitPython/commit/d06a45569fdfe5eab5e6825f6046c773b66d61c7))
+
+
+### BREAKING CHANGES
+
+* Package import changed from `import archunitpy` to
+`import archunitpython`.
+
+Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>
+
 # [1.5.0](https://github.com/LukasNiessen/ArchUnitPython/compare/v1.4.0...v1.5.0) (2026-07-18)
 
 
