@@ -6,7 +6,7 @@ import ast
 from dataclasses import dataclass
 
 
-@dataclass
+@dataclass(slots=True)
 class DeclarationCounts:
     """Counts of different declaration types in a Python file."""
 
